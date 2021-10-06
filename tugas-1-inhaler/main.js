@@ -69,7 +69,7 @@ function main() {
         r4: [0.424, 0.426],
         s4: [0.423, 0.446],
         t4: [0.417, 0.417],
-        u4: [0.41, 0, 412],
+        u4: [0.41, 0.412],
         v4: [0.401, 0.41],
         w4: [0.392, 0.412],
         z4: [0.385, 0.417],
@@ -144,7 +144,7 @@ function main() {
     }
 
     var vertices = [
-        //tempat gantungan
+        //tempat gantungan gambar kiri
         ...gambar_kiri.t3, ...gambar_kiri.color_1,
         ...gambar_kiri.u3, ...gambar_kiri.color_1,
         ...gambar_kiri.r3, ...gambar_kiri.color_1,
@@ -181,7 +181,7 @@ function main() {
         ...gambar_kiri.u3, ...gambar_kiri.color_1,
         ...gambar_kiri.t3, ...gambar_kiri.color_1,
 
-        //putih atas
+        //putih atas gambar kiri
         ...gambar_kiri.c3, ...gambar_kiri.color_2,
         ...gambar_kiri.e3, ...gambar_kiri.color_2,
         ...gambar_kiri.v1, ...gambar_kiri.color_2,
@@ -278,7 +278,7 @@ function main() {
         ...gambar_kiri.d3, ...gambar_kiri.color_2,
         ...gambar_kiri.c2, ...gambar_kiri.color_2,
 
-        //body biru
+        //body biru gambar kiri
 
         ...gambar_kiri.r2, ...gambar_kiri.color_3,
         ...gambar_kiri.c3, ...gambar_kiri.color_3,
@@ -360,7 +360,7 @@ function main() {
         ...gambar_kiri.v2, ...gambar_kiri.color_3,
         ...gambar_kiri.a4, ...gambar_kiri.color_3,
 
-        // tutup putih bawah
+        // tutup putih bawah gambar kiri
         ...gambar_kiri.z3, ...gambar_kiri.color_2,
         ...gambar_kiri.w3, ...gambar_kiri.color_2,
         ...gambar_kiri.i2, ...gambar_kiri.color_2,
@@ -432,7 +432,388 @@ function main() {
         ...gambar_kiri.b4, ...gambar_kiri.color_2,
         ...gambar_kiri.j2, ...gambar_kiri.color_2,
         ...gambar_kiri.a4, ...gambar_kiri.color_2,
+
+        //tempat gantungan gambar kanan
+        ...gambar_kanan.i, ...gambar_kanan.color_1,
+        ...gambar_kanan.q4, ...gambar_kanan.color_1,
+        ...gambar_kanan.d4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.s4, ...gambar_kanan.color_1,
+        ...gambar_kanan.q4, ...gambar_kanan.color_1,
+        ...gambar_kanan.d4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.g4, ...gambar_kanan.color_1,
+        ...gambar_kanan.s4, ...gambar_kanan.color_1,
+        ...gambar_kanan.d4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.g4, ...gambar_kanan.color_1,
+        ...gambar_kanan.s4, ...gambar_kanan.color_1,
+        ...gambar_kanan.p4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.g4, ...gambar_kanan.color_1,
+        ...gambar_kanan.l4, ...gambar_kanan.color_1,
+        ...gambar_kanan.p4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.o4, ...gambar_kanan.color_1,
+        ...gambar_kanan.l4, ...gambar_kanan.color_1,
+        ...gambar_kanan.p4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.o4, ...gambar_kanan.color_1,
+        ...gambar_kanan.l4, ...gambar_kanan.color_1,
+        ...gambar_kanan.f4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.o4, ...gambar_kanan.color_1,
+        ...gambar_kanan.n4, ...gambar_kanan.color_1,
+        ...gambar_kanan.f4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.m4, ...gambar_kanan.color_1,
+        ...gambar_kanan.n4, ...gambar_kanan.color_1,
+        ...gambar_kanan.f4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.m4, ...gambar_kanan.color_1,
+        ...gambar_kanan.n4, ...gambar_kanan.color_1,
+        ...gambar_kanan.e5, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.m4, ...gambar_kanan.color_1,
+        ...gambar_kanan.e4, ...gambar_kanan.color_1,
+        ...gambar_kanan.e5, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.d5, ...gambar_kanan.color_1,
+        ...gambar_kanan.e4, ...gambar_kanan.color_1,
+        ...gambar_kanan.e5, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.d5, ...gambar_kanan.color_1,
+        ...gambar_kanan.e4, ...gambar_kanan.color_1,
+        ...gambar_kanan.c4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.d5, ...gambar_kanan.color_1,
+        ...gambar_kanan.c5, ...gambar_kanan.color_1,
+        ...gambar_kanan.c4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.b5, ...gambar_kanan.color_1,
+        ...gambar_kanan.c5, ...gambar_kanan.color_1,
+        ...gambar_kanan.c4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.b5, ...gambar_kanan.color_1,
+        ...gambar_kanan.j, ...gambar_kanan.color_1,
+        ...gambar_kanan.c4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.b5, ...gambar_kanan.color_1,
+        ...gambar_kanan.j, ...gambar_kanan.color_1,
+        ...gambar_kanan.a5, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.p1, ...gambar_kanan.color_1,
+        ...gambar_kanan.j, ...gambar_kanan.color_1,
+        ...gambar_kanan.a5, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.p1, ...gambar_kanan.color_1,
+        ...gambar_kanan.z4, ...gambar_kanan.color_1,
+        ...gambar_kanan.a5, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.p1, ...gambar_kanan.color_1,
+        ...gambar_kanan.z4, ...gambar_kanan.color_1,
+        ...gambar_kanan.q1, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.w4, ...gambar_kanan.color_1,
+        ...gambar_kanan.z4, ...gambar_kanan.color_1,
+        ...gambar_kanan.q1, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.w4, ...gambar_kanan.color_1,
+        ...gambar_kanan.s1, ...gambar_kanan.color_1,
+        ...gambar_kanan.q1, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.w4, ...gambar_kanan.color_1,
+        ...gambar_kanan.s1, ...gambar_kanan.color_1,
+        ...gambar_kanan.v4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.u4, ...gambar_kanan.color_1,
+        ...gambar_kanan.s1, ...gambar_kanan.color_1,
+        ...gambar_kanan.v4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.u4, ...gambar_kanan.color_1,
+        ...gambar_kanan.s1, ...gambar_kanan.color_1,
+        ...gambar_kanan.t1, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.u4, ...gambar_kanan.color_1,
+        ...gambar_kanan.t1, ...gambar_kanan.color_1,
+        ...gambar_kanan.t4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.u1, ...gambar_kanan.color_1,
+        ...gambar_kanan.t1, ...gambar_kanan.color_1,
+        ...gambar_kanan.t4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.u1, ...gambar_kanan.color_1,
+        ...gambar_kanan.r4, ...gambar_kanan.color_1,
+        ...gambar_kanan.t4, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.u1, ...gambar_kanan.color_1,
+        ...gambar_kanan.r4, ...gambar_kanan.color_1,
+        ...gambar_kanan.i, ...gambar_kanan.color_1,
+
+        ...gambar_kanan.q4, ...gambar_kanan.color_1,
+        ...gambar_kanan.r4, ...gambar_kanan.color_1,
+        ...gambar_kanan.i, ...gambar_kanan.color_1,
+
+        ///tutup putis atas gambar kanan
+        ...gambar_kanan.f1, ...gambar_kanan.color_2,
+        ...gambar_kanan.f, ...gambar_kanan.color_2,
+        ...gambar_kanan.h1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.e, ...gambar_kanan.color_2,
+        ...gambar_kanan.f, ...gambar_kanan.color_2,
+        ...gambar_kanan.h1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.e, ...gambar_kanan.color_2,
+        ...gambar_kanan.j1, ...gambar_kanan.color_2,
+        ...gambar_kanan.h1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.e, ...gambar_kanan.color_2,
+        ...gambar_kanan.j1, ...gambar_kanan.color_2,
+        ...gambar_kanan.d, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.l1, ...gambar_kanan.color_2,
+        ...gambar_kanan.j1, ...gambar_kanan.color_2,
+        ...gambar_kanan.d, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.l1, ...gambar_kanan.color_2,
+        ...gambar_kanan.h, ...gambar_kanan.color_2,
+        ...gambar_kanan.d, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.l1, ...gambar_kanan.color_2,
+        ...gambar_kanan.h, ...gambar_kanan.color_2,
+        ...gambar_kanan.o1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.j, ...gambar_kanan.color_2,
+        ...gambar_kanan.h, ...gambar_kanan.color_2,
+        ...gambar_kanan.o1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.p1, ...gambar_kanan.color_2,
+        ...gambar_kanan.m1, ...gambar_kanan.color_2,
+        ...gambar_kanan.o1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.p1, ...gambar_kanan.color_2,
+        ...gambar_kanan.m1, ...gambar_kanan.color_2,
+        ...gambar_kanan.q1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.s1, ...gambar_kanan.color_2,
+        ...gambar_kanan.m1, ...gambar_kanan.color_2,
+        ...gambar_kanan.q1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.s1, ...gambar_kanan.color_2,
+        ...gambar_kanan.m1, ...gambar_kanan.color_2,
+        ...gambar_kanan.t1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.n1, ...gambar_kanan.color_2,
+        ...gambar_kanan.m1, ...gambar_kanan.color_2,
+        ...gambar_kanan.t1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.n1, ...gambar_kanan.color_2,
+        ...gambar_kanan.u1, ...gambar_kanan.color_2,
+        ...gambar_kanan.t1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.i, ...gambar_kanan.color_2,
+        ...gambar_kanan.n1, ...gambar_kanan.color_2,
+        ...gambar_kanan.k1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.i, ...gambar_kanan.color_2,
+        ...gambar_kanan.g, ...gambar_kanan.color_2,
+        ...gambar_kanan.k1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.i1, ...gambar_kanan.color_2,
+        ...gambar_kanan.g, ...gambar_kanan.color_2,
+        ...gambar_kanan.k1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.i1, ...gambar_kanan.color_2,
+        ...gambar_kanan.g, ...gambar_kanan.color_2,
+        ...gambar_kanan.c, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.i1, ...gambar_kanan.color_2,
+        ...gambar_kanan.g1, ...gambar_kanan.color_2,
+        ...gambar_kanan.c, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.b, ...gambar_kanan.color_2,
+        ...gambar_kanan.g1, ...gambar_kanan.color_2,
+        ...gambar_kanan.c, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.b, ...gambar_kanan.color_2,
+        ...gambar_kanan.g1, ...gambar_kanan.color_2,
+        ...gambar_kanan.e1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.b, ...gambar_kanan.color_2,
+        ...gambar_kanan.a, ...gambar_kanan.color_2,
+        ...gambar_kanan.e1, ...gambar_kanan.color_2,
+
+        //body biru gambar kanan
+        ...gambar_kanan.f1, ...gambar_kanan.color_3,
+        ...gambar_kanan.u, ...gambar_kanan.color_3,
+        ...gambar_kanan.z, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.f1, ...gambar_kanan.color_3,
+        ...gambar_kanan.h1, ...gambar_kanan.color_3,
+        ...gambar_kanan.z, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.b1, ...gambar_kanan.color_3,
+        ...gambar_kanan.h1, ...gambar_kanan.color_3,
+        ...gambar_kanan.z, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.b1, ...gambar_kanan.color_3,
+        ...gambar_kanan.h1, ...gambar_kanan.color_3,
+        ...gambar_kanan.j1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.b1, ...gambar_kanan.color_3,
+        ...gambar_kanan.j1, ...gambar_kanan.color_3,
+        ...gambar_kanan.d1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.j1, ...gambar_kanan.color_3,
+        ...gambar_kanan.d1, ...gambar_kanan.color_3,
+        ...gambar_kanan.l1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.d1, ...gambar_kanan.color_3,
+        ...gambar_kanan.l1, ...gambar_kanan.color_3,
+        ...gambar_kanan.v, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.o1, ...gambar_kanan.color_3,
+        ...gambar_kanan.l1, ...gambar_kanan.color_3,
+        ...gambar_kanan.v, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.o1, ...gambar_kanan.color_3,
+        ...gambar_kanan.c1, ...gambar_kanan.color_3,
+        ...gambar_kanan.v, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.o1, ...gambar_kanan.color_3,
+        ...gambar_kanan.m1, ...gambar_kanan.color_3,
+        ...gambar_kanan.c1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.a1, ...gambar_kanan.color_3,
+        ...gambar_kanan.m1, ...gambar_kanan.color_3,
+        ...gambar_kanan.c1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.a1, ...gambar_kanan.color_3,
+        ...gambar_kanan.m1, ...gambar_kanan.color_3,
+        ...gambar_kanan.n1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.a1, ...gambar_kanan.color_3,
+        ...gambar_kanan.w, ...gambar_kanan.color_3,
+        ...gambar_kanan.n1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.k1, ...gambar_kanan.color_3,
+        ...gambar_kanan.w, ...gambar_kanan.color_3,
+        ...gambar_kanan.n1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.k1, ...gambar_kanan.color_3,
+        ...gambar_kanan.w, ...gambar_kanan.color_3,
+        ...gambar_kanan.i1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.g1, ...gambar_kanan.color_3,
+        ...gambar_kanan.w, ...gambar_kanan.color_3,
+        ...gambar_kanan.i1, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.g1, ...gambar_kanan.color_3,
+        ...gambar_kanan.w, ...gambar_kanan.color_3,
+        ...gambar_kanan.t, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.g1, ...gambar_kanan.color_3,
+        ...gambar_kanan.e1, ...gambar_kanan.color_3,
+        ...gambar_kanan.t, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.u, ...gambar_kanan.color_3,
+        ...gambar_kanan.z, ...gambar_kanan.color_3,
+        ...gambar_kanan.j4, ...gambar_kanan.color_3,
+
+        ...gambar_kanan.w, ...gambar_kanan.color_3,
+        ...gambar_kanan.t, ...gambar_kanan.color_3,
+        ...gambar_kanan.h4, ...gambar_kanan.color_3,
+
+        // tutup putih awah gambar kanan
+        ...gambar_kanan.k4, ...gambar_kanan.color_2,
+        ...gambar_kanan.j4, ...gambar_kanan.color_2,
+        ...gambar_kanan.l, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.z, ...gambar_kanan.color_2,
+        ...gambar_kanan.j4, ...gambar_kanan.color_2,
+        ...gambar_kanan.l, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.z, ...gambar_kanan.color_2,
+        ...gambar_kanan.q, ...gambar_kanan.color_2,
+        ...gambar_kanan.l, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.z, ...gambar_kanan.color_2,
+        ...gambar_kanan.q, ...gambar_kanan.color_2,
+        ...gambar_kanan.b1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.o, ...gambar_kanan.color_2,
+        ...gambar_kanan.q, ...gambar_kanan.color_2,
+        ...gambar_kanan.b1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.o, ...gambar_kanan.color_2,
+        ...gambar_kanan.b1, ...gambar_kanan.color_2,
+        ...gambar_kanan.d1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.o, ...gambar_kanan.color_2,
+        ...gambar_kanan.s, ...gambar_kanan.color_2,
+        ...gambar_kanan.d1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.v, ...gambar_kanan.color_2,
+        ...gambar_kanan.s, ...gambar_kanan.color_2,
+        ...gambar_kanan.d1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.v, ...gambar_kanan.color_2,
+        ...gambar_kanan.s, ...gambar_kanan.color_2,
+        ...gambar_kanan.m, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.v, ...gambar_kanan.color_2,
+        ...gambar_kanan.c1, ...gambar_kanan.color_2,
+        ...gambar_kanan.m, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.r, ...gambar_kanan.color_2,
+        ...gambar_kanan.c1, ...gambar_kanan.color_2,
+        ...gambar_kanan.m, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.r, ...gambar_kanan.color_2,
+        ...gambar_kanan.c1, ...gambar_kanan.color_2,
+        ...gambar_kanan.a1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.r, ...gambar_kanan.color_2,
+        ...gambar_kanan.n, ...gambar_kanan.color_2,
+        ...gambar_kanan.a1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.w, ...gambar_kanan.color_2,
+        ...gambar_kanan.n, ...gambar_kanan.color_2,
+        ...gambar_kanan.a1, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.w, ...gambar_kanan.color_2,
+        ...gambar_kanan.n, ...gambar_kanan.color_2,
+        ...gambar_kanan.p, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.w, ...gambar_kanan.color_2,
+        ...gambar_kanan.k, ...gambar_kanan.color_2,
+        ...gambar_kanan.p, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.w, ...gambar_kanan.color_2,
+        ...gambar_kanan.k, ...gambar_kanan.color_2,
+        ...gambar_kanan.h4, ...gambar_kanan.color_2,
+
+        ...gambar_kanan.i4, ...gambar_kanan.color_2,
+        ...gambar_kanan.k, ...gambar_kanan.color_2,
+        ...gambar_kanan.h4, ...gambar_kanan.color_2,
+
     ];
+
+    var vertexBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+
+    var vertexShaderCode = `
+        attribute vec2 aPosition;
+        attribute vec3 aColor;
+        varying vec3 vColor;
+        uniform float uChange;
+        void main() {
+            gl_Position = vec4(aPosition.x, aPosition.y, 1.0, 1.0);
+            vColor = aColor;
+        }
+    `;
 
     var buffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
@@ -503,12 +884,14 @@ function main() {
     gl.enableVertexAttribArray(aColor);
 
     var freeze = false;
+
     // Interactive graphics with mouse
     function onMouseClick(event) {
         freeze = !freeze;
     }
     document.addEventListener("click", onMouseClick);
     // Interactive graphics with keyboard
+
     function onKeydown(event) {
         if (event.keyCode == 32) freeze = true;
     }
@@ -519,21 +902,20 @@ function main() {
     document.addEventListener("keydown", onKeydown);
     document.addEventListener("keyup", onKeyup);
 
+    // Speed set to my NRP
     var speed = 0.0159;
     var change = 0;
     var uChange = gl.getUniformLocation(shaderProgram, "uChange");
 
     function moveVertices() {
-
-        if (vertices[4131] < -1.0 || vertices[3711] > 1.0) {
+        if (change < -0.5 || change > 0.5) {
             speed = speed * -1;
         }
 
-        for (let i = 2161; i < vertices.length; i += 5) {
+        for (let i = 1066; i < vertices.length; i += 5) {
             vertices[i] = vertices[i] + speed;
         }
     }
-
 
     function render() {
         moveVertices();
@@ -542,13 +924,13 @@ function main() {
         change = change + speed;
         gl.uniform1f(uChange, change);
 
-        gl.clearColor(0.588, 0.588, 0.588, 1.0);
+        gl.clearColor(0.545, 0.588, 0.611, 1.0);
         gl.clear(gl.COLOR_BUFFER_BIT);
         var primitive = gl.TRIANGLES;
         var offset = 0;
-        var nVertex = 870;
+        var nVertex = 1000;
         gl.drawArrays(primitive, offset, nVertex);
         requestAnimationFrame(render);
     }
-    requestAnimationFrame(render);
+    requestAnimationFrame(render)
 }
